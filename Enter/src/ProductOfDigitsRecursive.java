@@ -1,6 +1,7 @@
 package io.github.jiangdequan;
 
-public class SumOFDigitsRecursion {
+public class ProductOfDigitsRecursive {
+
     public static void main(String[] args ){
         int ans=  recursive(19);
         system.out.println(ans);
@@ -9,6 +10,8 @@ public class SumOFDigitsRecursion {
         if(n==0){
             return n ;
         }
-        return recursive(n/10)+n%10;
+        return recursive(n/10)*n%10;
     }
+
+
 }
