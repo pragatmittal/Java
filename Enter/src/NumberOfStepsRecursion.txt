@@ -1,0 +1,21 @@
+class Solution {
+    public int numberOfSteps(int num) {
+           return  fun(num,0);
+
+    }
+    
+    static int  fun(int num,int count){
+            if(num==0){
+                return count;
+            }
+            
+            if(num%2==0){
+                return fun(num/2,count+1);
+            }
+            else{
+               return  fun(num-1,count+1);
+            }
+
+        }
+
+}
