@@ -19,6 +19,7 @@ public class SplitArrayIntoFibonacciNumbers {
             
             if(num < 0) return false;
             
+
             if(list.size()<2 || (list.get(list.size()-1) + list.get(list.size()-2)) == num ){
                 list.add(num);
                 if(helper(s, i+1, list)) return true;
