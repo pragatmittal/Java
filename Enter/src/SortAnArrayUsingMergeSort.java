@@ -40,7 +40,8 @@ public class SortAnArrayUsingMergeSort {
             }
     
             while (p2 < n2) {
-                array[writeInd++] = rightPart[p2++];
+                array[writeInd++] = rightPart[p2++];                   
+                
             }
         }
     } 
