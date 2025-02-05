@@ -1,10 +1,9 @@
-package io.github.jiangdequan;
 
 public class QuickSort {
     public static void main(String[] args){
         int [] arr={432,4,242,4,24,23423,423,4,24,24};
         sort(arr,0,arr.length);
-        system.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
     } 
     static void sort(int []nums,int low,int high){

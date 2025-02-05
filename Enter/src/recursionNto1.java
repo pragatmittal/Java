@@ -1,4 +1,3 @@
-package io.github.jiangdequan;
 
 public class recursionNto1 {
     public static void main( String[] args){
