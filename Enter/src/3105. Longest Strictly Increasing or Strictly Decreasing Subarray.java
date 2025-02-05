@@ -22,6 +22,7 @@ public class 3105. Longest Strictly Increasing or Strictly Decreasing Subarray {
                     dec=1;
     
                 }
+            
                 count=Math.max(count,Math.max(inc,dec));
             }
             return count;

@@ -1,10 +1,9 @@
-package io.github.jiangdequan;
+    // package io.github.jiangdequan;
 
-public class A. Milya and Two Arrays Codeforces Round #1002 (Div. 2) {
-    import java.util.Scanner;
-import java.util.Arrays;
- 
-public class Main {
+    public class A. Milya and Two Arrays Codeforces Round #1002 (Div. 2) {
+       
+    
+    public class Main {
  
     // Check if an array is "good": each distinct element must appear at least twice.
     public static boolean isGood(int[] arr) {
