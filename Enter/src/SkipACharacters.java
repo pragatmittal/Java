@@ -1,4 +1,4 @@
-package io.github.jiangdequan;
+// package io.github.jiangdequan;
 
 public class SkipACharacters {
     public static void main(String[] args){

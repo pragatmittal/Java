@@ -1,4 +1,4 @@
-package io.github.jiangdequan;
+// package io.github.jiangdequan;
 
 import java.awt.SystemColor;
 import java.util.Arrays;

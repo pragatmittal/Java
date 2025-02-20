@@ -1,4 +1,4 @@
-package io.github.jiangdequan;
+// package io.github.jiangdequan;
 
 public class series {
     public static void main(String[] args) {
