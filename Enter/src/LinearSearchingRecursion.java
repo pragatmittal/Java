@@ -6,12 +6,9 @@ public class LinearSearchingRecursion {
         System.out.println(find(arr,66,0));
     }
     static boolean find (int[] arr,int target ,int i){
-        if(i=arr.length){
+        if(i == arr.length){
             return false;
-
         }
         return arr[i]==target || find(arr,target,i+1);
-
     }
-
 }

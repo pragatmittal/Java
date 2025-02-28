@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classvaale",
+            "request": "launch",
+            "mainClass": "classvaale",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",

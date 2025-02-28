@@ -3,14 +3,14 @@ package io.github.jiangdequan;
 public class ProductOfDigitsRecursive {
 
     public static void main(String[] args ){
-        int ans=  recursive(19);
-        system.out.println(ans);
+        int ans = recursive(19);
+        System.out.println(ans);
     }
-    static void recursive(int n){
+    static int recursive(int n){
         if(n==0){
-            return n ;
+            return 1;
         }
-        return recursive(n/10)*n%10;
+        return recursive(n/10) * (n%10);
     }
 
 

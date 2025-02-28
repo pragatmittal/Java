@@ -1,13 +1,9 @@
-
 public class recursionNto1 {
-    public static void main( String[] args){
+    public static void main(String[] args){
         fin(9);
     }
-    static void fin(int a){
-        // if( n==1){
-
-        // }
-        if( n==0){
+    static void fin(int n){
+        if(n==0){
             return;
         }
         System.out.println(n);

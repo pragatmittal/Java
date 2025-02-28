@@ -1,6 +1,8 @@
 package io.github.jiangdequan;
 
-public class 1010.PairsofSongsWithTotalDurationsDivisibleby60 {
+import java.util.HashMap;
+
+public class PairsofSongsWithTotalDurationsDivisibleby60 {
     class Solution {
         public int numPairsDivisibleBy60(int[] time) {
             int count = 0;

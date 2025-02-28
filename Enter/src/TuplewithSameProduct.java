@@ -1,6 +1,8 @@
 package io.github.jiangdequan;
 
-public class 1726.TuplewithSameProduct {
+import java.util.HashMap;
+
+public class TuplewithSameProduct {
     class Solution {
         public int tupleSameProduct(int[] nums) {
             int count=0;
